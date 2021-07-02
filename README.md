@@ -1,9 +1,11 @@
-# CPROXY CLI
+# cproxy cli
 A simple, single binary to run a forward proxy. HTTPS supported by default.
 
 ### Usage
 
 Download the pre-built binary from https://github.com/ReeganExE/cproxy-cli/releases/latest
+
+> *Supported: Linux, macOS, Windows, Raspberry Pi family*
 
 ##### Start proxy
 ```sh
@@ -33,3 +35,5 @@ https_proxy=http://127.0.0.1:9090 curl https://httpbin.org/post -d hello="from t
 export https_proxy=http://127.0.0.1:9090
 curl https://httpbin.org/post -d hello="from the other side"
 ```
+
+![](https://i.upanh.org/2021/07/02/image97a3425fdfccec06.png)
